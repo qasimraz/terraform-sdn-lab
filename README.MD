@@ -16,7 +16,7 @@ export TF_VAR_personal_ssh_key_path='/home/.ssh/lab.pem'
 
 ### Provision 
 ```
-cd sdn-lab/
+cd odl-csr/
 terraform init
 terraform plan
 terraform apply
@@ -24,7 +24,7 @@ terraform apply
 
 To destroy
 ```
-cd sdn-lab/
+cd odl-csr/
 terraform destroy
 ```
 

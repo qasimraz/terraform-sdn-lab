@@ -9,6 +9,8 @@ variable my_cidr_block {}
 variable my_key_name {}
 variable my_bastion_ami {}
 variable my_bastion_instance_type {}
-variable my_csr_ami {}
+variable my_ubuntu_ami {}
+variable my_ubuntu_instance_type {}
 variable availability_zone {}
 variable personal_ssh_key_path {}
+variable my_csr_ami {}
