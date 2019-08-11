@@ -47,7 +47,7 @@ resource "aws_instance" "csr1" {
   ebs_optimized = 1
   tags {
     Name = "${var.my_vpc_name}-csr1"
-    User = "jnpr"
+    User = "ec2-user"
     Type = "csr"
   }
 }
@@ -63,7 +63,7 @@ resource "aws_instance" "csr2" {
   ebs_optimized = 1
   tags {
     Name = "${var.my_vpc_name}-csr2"
-    User = "jnpr"
+    User = "ec2-user"
     Type = "csr"
   }
 }
